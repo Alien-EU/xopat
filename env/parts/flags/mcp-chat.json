@@ -1,0 +1,19 @@
+{
+  "$meta": {
+    "description": "MCP chat tab (plugin chat-mcp) + annotations — layer it on top of any chat/* fragment that configures a provider"
+  },
+  /**
+   * The MCP chat reuses the providers of the built-in chat (same registry, keys stay
+   * on the server), so this fragment only switches the plugin on. `gui_annotations`
+   * is loaded too because three of the eight MCP tools need its scripting namespaces.
+   *
+   *   npm run up -- base/core data/wsi-service auth/none chat/openai-compatible-cerit flags/mcp-chat
+   */
+  "plugins": {
+    "chat-mcp": { "enabled": true, "permaLoad": true },
+    "gui_annotations": { "enabled": true, "permaLoad": true }
+  },
+  "modules": {
+    "vercel-ai-chat-sdk": { "enabled": true }
+  }
+}

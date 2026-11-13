@@ -1,0 +1,27 @@
+{
+  "name": "chat-mcp",
+  "version": "0.1.0",
+  "private": true,
+  "description": "xOpat viewer tools exposed over MCP, with an in-browser MCP client and agent loop for the chat.",
+  "keywords": [
+    "xopat",
+    "mcp",
+    "chat",
+    "tool-calling",
+    "agent"
+  ],
+  "buildEntry": "src/index.ts",
+  "scripts": {
+    "test": "node test/run.mjs"
+  },
+  "author": "Marek Pivka",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.0",
+    "zod": "^4.3.6",
+    "ai": "^7.0.66"
+  },
+  "devDependencies": {
+    "@ai-sdk/openai-compatible": "^3.0.31"
+  }
+}
