@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "name": "MCP Chat",
+    "description": "Chat that controls the viewer through MCP tools (viewport, navigation, screenshot, annotations) instead of model-written scripts. Experimental; built for tool-calling experiments with small models."
+  },
+  "tabTitle": "MCP Chat",
+  "panel": {
+    "placeholder": "Ask about the slide or tell the viewer what to do (Ctrl+Enter sends)",
+    "send": "Send",
+    "newConversation": "New conversation",
+    "exportTrace": "Export trace",
+    "provider": "Provider",
+    "model": "Model",
+    "noProvider": "No chat provider is configured.",
+    "providersFailed": "Could not load providers: {{reason}}",
+    "modelsFailed": "Could not load models: {{reason}}",
+    "thinking": "Model is thinking (step {{step}})…",
+    "ranTool": "Ran {{name}}",
+    "guardrail": "Guardrail rejected a call to {{name}}",
+    "stopButton": "Stop",
+    "stopped": {
+      "max-steps": "Stopped: step limit reached.",
+      "repeated-call": "Stopped: the model repeated the same call.",
+      "aborted": "Stopped.",
+      "error": "Stopped after an error."
+    }
+  },
+  "settings": {
+    "title": "Experiment settings",
+    "systemPrompt": {
+      "default": "Default",
+      "minimal": "Minimal",
+      "custom": "Custom"
+    },
+    "toolDescriptions": {
+      "full": "Full",
+      "short": "Short"
+    },
+    "customPrompt": "Custom system prompt",
+    "guardrails": "Guardrails (validate arguments before calling)",
+    "feedback": "Feedback (send exact error messages back)",
+    "sendImages": "Send screenshots to the model",
+    "maxSteps": "Max steps",
+    "historyWindow": "History window (0 = all)",
+    "tools": "Tools offered to the model",
+    "systemPromptLabel": "System prompt",
+    "toolDescriptionsLabel": "Tool descriptions"
+  },
+  "error": {
+    "noChatModule": "The vercel-ai-chat-sdk module is not loaded."
+  }
+}

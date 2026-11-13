@@ -1,0 +1,15 @@
+{
+    "id": "chat-mcp",
+    "name": "%meta.name%",
+    "description": "%meta.description%",
+    "author": "Marek Pivka",
+    "version": "0.1.0",
+    "stability": "experimental",
+    "icon": "ph-plugs-connected",
+    "categories": ["AI"],
+    "keywords": ["chat", "llm", "mcp", "tools", "agent"],
+    "modules": ["vercel-ai-chat-sdk"],
+    "includes": [
+        "index.workspace.js"
+    ]
+}

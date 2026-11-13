@@ -44,6 +44,7 @@
 !/plugins/chat-anthropic
 !/plugins/chat-openai-compatible
 !/plugins/chat-openai
+!/plugins/chat-mcp
 !/plugins/custom-pages
 !/plugins/empaia
 !/plugins/empaia-app-ui
