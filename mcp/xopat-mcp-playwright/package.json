@@ -1,0 +1,24 @@
+{
+  "name": "xopat-mcp-playwright",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Prototype MCP server (stdio) that drives the xOpat viewer through Playwright and the xOpat Scripting API.",
+  "type": "module",
+  "main": "src/server.mjs",
+  "bin": {
+    "xopat-mcp-playwright": "src/server.mjs"
+  },
+  "scripts": {
+    "start": "node src/server.mjs",
+    "smoke": "node test/smoke.mjs",
+    "inspector": "npx @modelcontextprotocol/inspector node src/server.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "playwright": "1.62.1",
+    "zod": "^4.0.0"
+  }
+}
