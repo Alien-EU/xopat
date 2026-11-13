@@ -53,7 +53,7 @@ npm run inspector                   # MCP Inspector UI to call tools by hand
 Register it in Claude Code:
 
 ```bash
-claude mcp add xopat -e XOPAT_DEFAULT_SLIDE=slides/CMU-1.svs -- node /abs/path/to/mcp/xopat-mcp-playwright/src/server.mjs
+claude mcp add --transport stdio --env XOPAT_DEFAULT_SLIDE=slides/CMU-1.svs xopat -- node /abs/path/to/mcp/xopat-mcp-playwright/src/server.mjs
 ```
 
 or in Claude Desktop's `claude_desktop_config.json`:
