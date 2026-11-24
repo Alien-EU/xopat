@@ -12,6 +12,7 @@ dokumentáciu. Implementácia vzniká postupne v plugine `plugins/mcp-plugin`.
 | [mcp-nacrt.md](mcp-nacrt.md) | Krátky náčrt architektúry: `mcp-plugin` v prehliadači, relay `mcp-bridge` na serveri, MCP klienti. |
 | [mcp-architektura-navrh.md](mcp-architektura-navrh.md) | Detailný návrh: vrstvy, ako komponenty pridávajú vlastné nástroje, serverové nástroje, scripting vs. MCP, bezpečnosť, poradie implementácie. |
 | [mcp-plugin-triedy.md](mcp-plugin-triedy.md) | Triedy `ToolRegistry`, `McpServer` a `McpPlugin`, konvencie názvov a chýb, tok jedného volania `tools/call`. |
+| [mcp-parovanie.md](mcp-parovanie.md) | Párovanie externého AI klienta so záložkou bez účtov: `connectionId`, overovací kód, Allow/Deny, `tools/list_changed`. |
 
 Obrázky sú v [assets/](assets/).
 
@@ -20,6 +21,7 @@ Obrázky sú v [assets/](assets/).
 1. `mcp-nacrt.md` na rýchly prehľad.
 2. `mcp-architektura-navrh.md`, ak chceš celý návrh a otvorené otázky.
 3. `mcp-plugin-triedy.md` pred písaním kódu pluginu.
+4. `mcp-parovanie.md` pred písaním `mcp-bridge` a pripájania externých klientov.
 
 ## Názvoslovie
 
