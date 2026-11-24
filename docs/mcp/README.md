@@ -13,6 +13,7 @@ dokumentáciu. Implementácia vzniká postupne v plugine `plugins/mcp-plugin`.
 | [mcp-architektura-navrh.md](mcp-architektura-navrh.md) | Detailný návrh: vrstvy, ako komponenty pridávajú vlastné nástroje, serverové nástroje, scripting vs. MCP, bezpečnosť, poradie implementácie. |
 | [mcp-plugin-triedy.md](mcp-plugin-triedy.md) | Triedy `ToolRegistry`, `McpServer` a `McpPlugin`, konvencie názvov a chýb, tok jedného volania `tools/call`. |
 | [mcp-parovanie.md](mcp-parovanie.md) | Párovanie externého AI klienta so záložkou bez účtov: `connectionId`, overovací kód, Allow/Deny, `tools/list_changed`. |
+| [adr/](adr/README.md) | Architektonické rozhodnutia (ADR): prečo je návrh taký, aký je, a aké možnosti sme zamietli. |
 
 Obrázky sú v [assets/](assets/).
 
